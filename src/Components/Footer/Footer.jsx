@@ -10,7 +10,7 @@ export const Footer = () => {
     <div className='footer'>
         <div className="footer-logo">
             <img src={footer_logo} alt="" style={{height:"100px", width:"100px"}} />
-            <p>KIKS-LEGACY</p>
+            <p>KIKS</p>
         </div>
         <ul className="footer-links">
             <li>Company</li>
