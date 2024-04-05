@@ -4,7 +4,7 @@ import logo from '../Assets/logos.png.jpg'
 import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom';
 import { ShopContext } from '../../Context/ShopContext';
-import nav_dropdown from '../Assets/dropdown_icon.webp';
+import nav_dropdown from '../Assets/dropdown-icon.webp';
 
 
 export const Navbar = () => {
@@ -21,7 +21,7 @@ export const Navbar = () => {
   return (
     <div className='navbar'>
         <div className="nav-logo">
-            <img  src={logo} alt="" />
+            <img  src={logo}  alt="" />
             <p>KIKS</p>
         </div>
         <img className='nav-dropdown' onClick={dropdown_toggle} src={nav_dropdown} alt="" />
