@@ -14,8 +14,8 @@ export const Hero = () => {
             <p>New</p>
             <img src={hand_icon} alt="" />
           </div>
-          <p>collections</p>
-          <p>for everyone</p>
+          <p className='collections'>collections</p>
+          
         </div>
         <div className="hero-latest-btn">
           <div>Latest Collection</div>
